@@ -38,7 +38,7 @@ public class HomeController {
 	
 	@RequestMapping("/home")
 	public String welcome() {
-		return "welcome to spring rest";
+		return "welcome to spring rest edit";
 	}
 	
 	@PostMapping("/authenticate")
